@@ -67,5 +67,4 @@ Set `NODE_VERSION=22`. If this repo sits inside a parent folder, set the root di
 
 ## 👋 Author
 
-**Kamil**, frontend developer & creative coder, Kuala Lumpur
-[Portfolio](https://kamilpixel-design.netlify.app) · [kamilpixel.com](https://kamilpixel.com)
+**Kamil**, frontend developer & creative coder [kamilpixel.com](https://kamilpixel.com)
