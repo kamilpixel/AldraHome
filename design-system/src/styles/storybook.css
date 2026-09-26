@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "./theme.css";
+@source "../";
+@source "../../.storybook";
+
+/* Let Storybook docs pages follow the active brand + mode */
+.sbdocs.sbdocs-wrapper { background: var(--background); }
+.sbdocs .sbdocs-content { color: var(--foreground); }

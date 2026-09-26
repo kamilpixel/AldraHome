@@ -1,0 +1,56 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Introduction" />
+
+# AldraHome Design System
+
+The components and tokens behind the **Aldra Home** portal, a *fictional* smart-home brand made for this prototype.
+It is built on **shadcn/ui** and supports light and dark mode.
+
+Switch mode from the **toolbar above**. Every story and docs page re-renders live.
+
+## Architecture
+
+```
+tokens/primitives.json               Tier 1  raw palette        {palette.pine.600}
+tokens/semantic/{light,dark}.json    Tier 2  shadcn roles       {color.primary}, {color.muted-foreground}
+tokens/brands/aldra/*.json           Tier 3  brand overrides    colours, radius scale, fonts
+        │   W3C DTCG format ($value, $type)
+        ▼   npm run tokens   (Style Dictionary + WCAG audit)
+src/styles/tokens.css                --background, --primary, --radius… per [data-theme]
+src/tokens/tokens.generated.ts       typed values + contrast audit (build fails below AA)
+        │
+        ▼
+src/styles/theme.css                 Tailwind v4 @theme, same mapping as shadcn globals.css
+src/components/ui/*                  shadcn/ui components (new-york, Radix UI)
+src/components/appliance/*           appliance components: Dial, StatTile
+```
+
+## What it adds to shadcn/ui
+
+1. **Generated tokens**: shadcn's variables are built from DTCG tokens per mode instead of hand-edited in `globals.css`.
+2. **Status roles**: `success`, `warning`, `info` and `*-soft` tokens, with matching Badge and Alert variants.
+3. **Appliance components**: a rotary `Dial` (WAI-ARIA slider) and `StatTile`, plus `xl` 56px touch sizes.
+4. **Contrast audit**: every foreground/background pair is checked at build time against WCAG 2.2 AA.
+
+## Using it
+
+```tsx
+import { ThemeProvider } from '@/theme/theme-provider';
+import { Button } from '@/components/ui/button';
+import { Dial } from '@/components/appliance/dial';
+
+<ThemeProvider defaultMode="system">
+  <Dial label="Oven" min={30} max={250} step={5} unit="°" />
+  <Button size="xl">Start</Button>
+</ThemeProvider>
+```
+
+```css
+/* app.css */
+@import "tailwindcss";
+@import "../../design-system/src/styles/theme.css";
+@source "../../design-system/src";
+```
+
+New shadcn components can be added with the CLI from `design-system/`: `npx shadcn@latest add accordion`.

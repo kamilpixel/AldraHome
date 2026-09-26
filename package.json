@@ -1,0 +1,18 @@
+{
+  "name": "aldra-web",
+  "private": true,
+  "version": "0.2.0",
+  "description": "AldraHome: smart-home appliance portal and design system on shadcn/ui (fictional brand prototype)",
+  "workspaces": [
+    "design-system",
+    "portal"
+  ],
+  "scripts": {
+    "tokens": "npm run tokens -w @workspace/ui",
+    "storybook": "npm run storybook -w @workspace/ui",
+    "build-storybook": "npm run build-storybook -w @workspace/ui",
+    "dev": "npm run dev -w aldra-portal",
+    "build": "npm run tokens && npm run build -w aldra-portal",
+    "typecheck": "npm run typecheck --workspaces"
+  }
+}

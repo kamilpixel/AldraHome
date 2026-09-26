@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import "../../design-system/src/styles/theme.css";
+
+/* Scan design-system sources so their utility classes are generated */
+@source "../../design-system/src";

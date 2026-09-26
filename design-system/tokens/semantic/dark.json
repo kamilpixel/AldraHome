@@ -1,0 +1,161 @@
+{
+  "color": {
+    "$type": "color",
+    "$description": "Tier 2: semantic roles shared by every theme. Names follow shadcn/ui CSS variables, plus AldraHome extensions (primary-soft, highlight, success, warning, info).",
+    "background": {
+      "$value": "{palette.neutral.950}"
+    },
+    "foreground": {
+      "$value": "{palette.neutral.50}"
+    },
+    "card": {
+      "$value": "{palette.neutral.900}"
+    },
+    "popover": {
+      "$value": "{palette.neutral.850}"
+    },
+    "primary": {
+      "$value": "{palette.neutral.50}"
+    },
+    "primary-foreground": {
+      "$value": "{palette.neutral.900}"
+    },
+    "primary-soft": {
+      "$value": "{palette.neutral.800}"
+    },
+    "primary-soft-foreground": {
+      "$value": "{palette.neutral.50}"
+    },
+    "secondary": {
+      "$value": "{palette.neutral.800}"
+    },
+    "muted": {
+      "$value": "{palette.neutral.850}"
+    },
+    "muted-foreground": {
+      "$value": "{palette.neutral.300}"
+    },
+    "subtle-foreground": {
+      "$value": "{palette.neutral.400}"
+    },
+    "highlight": {
+      "$value": "{palette.neutral.300}"
+    },
+    "highlight-foreground": {
+      "$value": "{palette.neutral.950}"
+    },
+    "destructive": {
+      "$value": "{palette.red.300}"
+    },
+    "destructive-foreground": {
+      "$value": "{palette.red.900}"
+    },
+    "destructive-soft": {
+      "$value": "{palette.red.900}"
+    },
+    "success": {
+      "$value": "{palette.green.300}"
+    },
+    "success-soft": {
+      "$value": "{palette.green.900}"
+    },
+    "warning": {
+      "$value": "{palette.amber.300}"
+    },
+    "warning-soft": {
+      "$value": "{palette.amber.900}"
+    },
+    "info": {
+      "$value": "{palette.blue.300}"
+    },
+    "info-soft": {
+      "$value": "{palette.blue.900}"
+    },
+    "border": {
+      "$value": "{palette.neutral.800}"
+    },
+    "input": {
+      "$value": "{palette.neutral.500}"
+    },
+    "ring": {
+      "$value": "{palette.neutral.300}"
+    },
+    "chart-3": {
+      "$value": "{palette.neutral.500}"
+    },
+    "chart-4": {
+      "$value": "{palette.blue.300}"
+    },
+    "chart-5": {
+      "$value": "{palette.green.300}"
+    },
+    "card-foreground": {
+      "$value": "{color.foreground}"
+    },
+    "popover-foreground": {
+      "$value": "{color.foreground}"
+    },
+    "secondary-foreground": {
+      "$value": "{color.foreground}"
+    },
+    "accent": {
+      "$value": "{color.primary-soft}"
+    },
+    "accent-foreground": {
+      "$value": "{color.primary-soft-foreground}"
+    },
+    "chart-1": {
+      "$value": "{color.primary}"
+    },
+    "chart-2": {
+      "$value": "{color.highlight}"
+    },
+    "sidebar": {
+      "$value": "{color.card}"
+    },
+    "sidebar-foreground": {
+      "$value": "{color.foreground}"
+    },
+    "sidebar-primary": {
+      "$value": "{color.primary}"
+    },
+    "sidebar-primary-foreground": {
+      "$value": "{color.primary-foreground}"
+    },
+    "sidebar-accent": {
+      "$value": "{color.primary-soft}"
+    },
+    "sidebar-accent-foreground": {
+      "$value": "{color.primary-soft-foreground}"
+    },
+    "sidebar-border": {
+      "$value": "{color.border}"
+    },
+    "sidebar-ring": {
+      "$value": "{color.ring}"
+    }
+  },
+  "brand": {
+    "shadow": {
+      "card": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": "#00000066",
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "2px",
+            "spread": "0px"
+          },
+          {
+            "color": "#00000099",
+            "offsetX": "0px",
+            "offsetY": "12px",
+            "blur": "32px",
+            "spread": "-12px"
+          }
+        ]
+      }
+    }
+  }
+}

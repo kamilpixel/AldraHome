@@ -1,0 +1,26 @@
+{
+  "color": {
+    "$type": "color",
+    "primary": {
+      "$value": "{palette.pine.600}"
+    },
+    "primary-foreground": {
+      "$value": "{palette.white}"
+    },
+    "primary-soft": {
+      "$value": "{palette.pine.50}"
+    },
+    "primary-soft-foreground": {
+      "$value": "{palette.pine.700}"
+    },
+    "highlight": {
+      "$value": "{palette.clay.500}"
+    },
+    "highlight-foreground": {
+      "$value": "{palette.neutral.950}"
+    },
+    "ring": {
+      "$value": "{palette.clay.600}"
+    }
+  }
+}

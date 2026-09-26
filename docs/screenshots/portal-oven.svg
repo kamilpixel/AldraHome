@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" rx="24" fill="#eceef1"/>
+  <rect x="12" y="12" width="1576" height="976" rx="18" fill="none" stroke="#c4c9d0" stroke-width="4" stroke-dasharray="20 14"/>
+  <text x="800" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-size="56" font-weight="600" fill="#4a5360">Portal: oven control</text>
+  <text x="800" y="560" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" fill="#7a838f">Screenshot coming soon</text>
+</svg>
