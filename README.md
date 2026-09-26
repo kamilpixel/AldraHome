@@ -4,7 +4,7 @@ A smart-home portal for controlling connected appliances, built with React and s
 
 > Aldra Home is a **fictional brand** made for this project.
 
-🔗 **Portal:** _add link_ · **Storybook:** _add link_
+🔗 **Portal:** [aldrahome.kamilpixel.com](https://aldrahome.kamilpixel.com/) · **Storybook:** [aldrahome-storybook.kamilpixel.com](https://aldrahome-storybook.kamilpixel.com)
 
 ## 🏠 About
 
@@ -18,19 +18,24 @@ Aldra Home is a web app where you check on and control the appliances in your ho
 
 It works on desktop and mobile. The UI components are documented in Storybook.
 
-<!-- Replace placeholders with real PNGs: docs/screenshots/*.png -->
-
 ## 📸 Screenshots
 
-### Portal
-
-![Portal: home dashboard](docs/screenshots/portal-home.svg)
-
-![Portal: oven control](docs/screenshots/portal-oven.svg)
-
-### Storybook
-
-![Storybook](docs/screenshots/storybook.svg)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://aldrahome.kamilpixel.com/">
+        <img src="https://aldrahome.kamilpixel.com/screenshots/portal.png" width="400" height="400" alt="Aldra Home portal: home dashboard" />
+      </a>
+      <br /><strong>Portal</strong>
+    </td>
+    <td align="center">
+      <a href="https://aldrahome-storybook.kamilpixel.com">
+        <img src="https://aldrahome.kamilpixel.com/screenshots/storybook.png" width="400" height="400" alt="Storybook: oven panel pattern" />
+      </a>
+      <br /><strong>Storybook</strong>
+    </td>
+  </tr>
+</table>
 
 ## 🧰 Stack
 
