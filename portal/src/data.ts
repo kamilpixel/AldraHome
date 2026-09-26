@@ -7,7 +7,7 @@ import {
 export type IconType = ComponentType<SVGProps<SVGSVGElement>>;
 export type StatusVariant = 'success' | 'warning' | 'info' | 'secondary';
 
-export const product = { name: 'Aldra Home', hello: 'Everything at home is running smoothly.', mark: 'A' };
+export const product = { hello: 'Everything at home is running smoothly.' };
 
 export type ApplianceKind = 'oven' | 'washer' | 'fridge' | 'dishwasher';
 

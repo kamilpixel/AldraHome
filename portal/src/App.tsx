@@ -15,6 +15,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { useTheme } from '@/theme/theme-provider';
 import { cn } from '@/lib/utils';
+import { brands } from '@/tokens/tokens.generated';
 import { notifications, type IconType } from './data';
 import { HomeView } from './views/HomeView';
 import { ApplianceView } from './views/ApplianceView';
@@ -43,7 +44,7 @@ const focusRing = 'outline-none focus-visible:ring-[3px] focus-visible:ring-ring
 
 export function App() {
   const [route, setRoute] = useState<Route>(() => parse(location.hash));
-  const { mode, toggleMode } = useTheme();
+  const { brand, mode, toggleMode } = useTheme();
   const unread = notifications.filter((n) => n.unread).length;
 
   useEffect(() => {
@@ -54,6 +55,10 @@ export function App() {
     window.addEventListener('hashchange', on);
     return () => window.removeEventListener('hashchange', on);
   }, []);
+
+  useEffect(() => {
+    document.title = brands.find((b) => b.id === brand)!.product;
+  }, [brand]);
 
   const isActive = (r: Route) => href(r) === href(route);
 

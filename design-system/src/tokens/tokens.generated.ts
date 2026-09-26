@@ -374,6 +374,381 @@ export const brands = [
         }
       }
     }
+  },
+  {
+    "id": "veyra",
+    "name": "Veyra",
+    "tagline": "Premium dark-metal line",
+    "description": "The group's premium line. Sharp geometry, deep ink and brushed brass: crafted appliances for considered kitchens.",
+    "product": "Veyra Home",
+    "font": {
+      "body": "Manrope, ui-sans-serif, system-ui, sans-serif",
+      "display": "Fraunces, ui-serif, Georgia, serif"
+    },
+    "radius": {
+      "item": "2px",
+      "control": "4px",
+      "panel": "6px",
+      "card": "8px"
+    },
+    "modes": {
+      "light": {
+        "background": {
+          "value": "#fbfaf8",
+          "ref": "palette.neutral.25"
+        },
+        "foreground": {
+          "value": "#1a1918",
+          "ref": "palette.neutral.900"
+        },
+        "card": {
+          "value": "#ffffff",
+          "ref": "palette.neutral.0"
+        },
+        "popover": {
+          "value": "#ffffff",
+          "ref": "palette.neutral.0"
+        },
+        "primary": {
+          "value": "#1f2128",
+          "ref": "palette.ink.800"
+        },
+        "primary-foreground": {
+          "value": "#ffffff",
+          "ref": "palette.white"
+        },
+        "primary-soft": {
+          "value": "#f2f2f4",
+          "ref": "palette.ink.50"
+        },
+        "primary-soft-foreground": {
+          "value": "#2e313a",
+          "ref": "palette.ink.700"
+        },
+        "secondary": {
+          "value": "#eceae5",
+          "ref": "palette.neutral.100"
+        },
+        "muted": {
+          "value": "#f5f4f1",
+          "ref": "palette.neutral.50"
+        },
+        "muted-foreground": {
+          "value": "#5a5650",
+          "ref": "palette.neutral.600"
+        },
+        "subtle-foreground": {
+          "value": "#75706a",
+          "ref": "palette.neutral.500"
+        },
+        "highlight": {
+          "value": "#b08a4e",
+          "ref": "palette.brass.500"
+        },
+        "highlight-foreground": {
+          "value": "#121110",
+          "ref": "palette.neutral.950"
+        },
+        "destructive": {
+          "value": "#c22f2f",
+          "ref": "palette.red.600"
+        },
+        "destructive-foreground": {
+          "value": "#ffffff",
+          "ref": "palette.white"
+        },
+        "destructive-soft": {
+          "value": "#fdecec",
+          "ref": "palette.red.50"
+        },
+        "success": {
+          "value": "#1e7a45",
+          "ref": "palette.green.600"
+        },
+        "success-soft": {
+          "value": "#e9f7ee",
+          "ref": "palette.green.50"
+        },
+        "warning": {
+          "value": "#8a5a00",
+          "ref": "palette.amber.700"
+        },
+        "warning-soft": {
+          "value": "#fff5e0",
+          "ref": "palette.amber.50"
+        },
+        "info": {
+          "value": "#1d5fb8",
+          "ref": "palette.blue.600"
+        },
+        "info-soft": {
+          "value": "#eaf2fd",
+          "ref": "palette.blue.50"
+        },
+        "border": {
+          "value": "#dddad3",
+          "ref": "palette.neutral.200"
+        },
+        "input": {
+          "value": "#75706a",
+          "ref": "palette.neutral.500"
+        },
+        "ring": {
+          "value": "#8f6e3a",
+          "ref": "palette.brass.600"
+        },
+        "chart-3": {
+          "value": "#9a958b",
+          "ref": "palette.neutral.400"
+        },
+        "chart-4": {
+          "value": "#1d5fb8",
+          "ref": "palette.blue.600"
+        },
+        "chart-5": {
+          "value": "#1e7a45",
+          "ref": "palette.green.600"
+        },
+        "card-foreground": {
+          "value": "#1a1918",
+          "ref": "color.foreground"
+        },
+        "popover-foreground": {
+          "value": "#1a1918",
+          "ref": "color.foreground"
+        },
+        "secondary-foreground": {
+          "value": "#1a1918",
+          "ref": "color.foreground"
+        },
+        "accent": {
+          "value": "#f2f2f4",
+          "ref": "color.primary-soft"
+        },
+        "accent-foreground": {
+          "value": "#2e313a",
+          "ref": "color.primary-soft-foreground"
+        },
+        "chart-1": {
+          "value": "#1f2128",
+          "ref": "color.primary"
+        },
+        "chart-2": {
+          "value": "#b08a4e",
+          "ref": "color.highlight"
+        },
+        "sidebar": {
+          "value": "#ffffff",
+          "ref": "color.card"
+        },
+        "sidebar-foreground": {
+          "value": "#1a1918",
+          "ref": "color.foreground"
+        },
+        "sidebar-primary": {
+          "value": "#1f2128",
+          "ref": "color.primary"
+        },
+        "sidebar-primary-foreground": {
+          "value": "#ffffff",
+          "ref": "color.primary-foreground"
+        },
+        "sidebar-accent": {
+          "value": "#f2f2f4",
+          "ref": "color.primary-soft"
+        },
+        "sidebar-accent-foreground": {
+          "value": "#2e313a",
+          "ref": "color.primary-soft-foreground"
+        },
+        "sidebar-border": {
+          "value": "#dddad3",
+          "ref": "color.border"
+        },
+        "sidebar-ring": {
+          "value": "#8f6e3a",
+          "ref": "color.ring"
+        }
+      },
+      "dark": {
+        "background": {
+          "value": "#121110",
+          "ref": "palette.neutral.950"
+        },
+        "foreground": {
+          "value": "#f5f4f1",
+          "ref": "palette.neutral.50"
+        },
+        "card": {
+          "value": "#1a1918",
+          "ref": "palette.neutral.900"
+        },
+        "popover": {
+          "value": "#222120",
+          "ref": "palette.neutral.850"
+        },
+        "primary": {
+          "value": "#d4b684",
+          "ref": "palette.brass.300"
+        },
+        "primary-foreground": {
+          "value": "#0d0e11",
+          "ref": "palette.ink.950"
+        },
+        "primary-soft": {
+          "value": "#1f2128",
+          "ref": "palette.ink.800"
+        },
+        "primary-soft-foreground": {
+          "value": "#e6d3b0",
+          "ref": "palette.brass.200"
+        },
+        "secondary": {
+          "value": "#2c2a27",
+          "ref": "palette.neutral.800"
+        },
+        "muted": {
+          "value": "#222120",
+          "ref": "palette.neutral.850"
+        },
+        "muted-foreground": {
+          "value": "#c4c0b7",
+          "ref": "palette.neutral.300"
+        },
+        "subtle-foreground": {
+          "value": "#9a958b",
+          "ref": "palette.neutral.400"
+        },
+        "highlight": {
+          "value": "#d4b684",
+          "ref": "palette.brass.300"
+        },
+        "highlight-foreground": {
+          "value": "#121110",
+          "ref": "palette.neutral.950"
+        },
+        "destructive": {
+          "value": "#f59a9a",
+          "ref": "palette.red.300"
+        },
+        "destructive-foreground": {
+          "value": "#4a1212",
+          "ref": "palette.red.900"
+        },
+        "destructive-soft": {
+          "value": "#4a1212",
+          "ref": "palette.red.900"
+        },
+        "success": {
+          "value": "#7ed3a0",
+          "ref": "palette.green.300"
+        },
+        "success-soft": {
+          "value": "#0e3a21",
+          "ref": "palette.green.900"
+        },
+        "warning": {
+          "value": "#ffc766",
+          "ref": "palette.amber.300"
+        },
+        "warning-soft": {
+          "value": "#3d2800",
+          "ref": "palette.amber.900"
+        },
+        "info": {
+          "value": "#8db8f2",
+          "ref": "palette.blue.300"
+        },
+        "info-soft": {
+          "value": "#0d2a52",
+          "ref": "palette.blue.900"
+        },
+        "border": {
+          "value": "#2c2a27",
+          "ref": "palette.neutral.800"
+        },
+        "input": {
+          "value": "#75706a",
+          "ref": "palette.neutral.500"
+        },
+        "ring": {
+          "value": "#d4b684",
+          "ref": "palette.brass.300"
+        },
+        "chart-3": {
+          "value": "#75706a",
+          "ref": "palette.neutral.500"
+        },
+        "chart-4": {
+          "value": "#8db8f2",
+          "ref": "palette.blue.300"
+        },
+        "chart-5": {
+          "value": "#7ed3a0",
+          "ref": "palette.green.300"
+        },
+        "card-foreground": {
+          "value": "#f5f4f1",
+          "ref": "color.foreground"
+        },
+        "popover-foreground": {
+          "value": "#f5f4f1",
+          "ref": "color.foreground"
+        },
+        "secondary-foreground": {
+          "value": "#f5f4f1",
+          "ref": "color.foreground"
+        },
+        "accent": {
+          "value": "#1f2128",
+          "ref": "color.primary-soft"
+        },
+        "accent-foreground": {
+          "value": "#e6d3b0",
+          "ref": "color.primary-soft-foreground"
+        },
+        "chart-1": {
+          "value": "#d4b684",
+          "ref": "color.primary"
+        },
+        "chart-2": {
+          "value": "#d4b684",
+          "ref": "color.highlight"
+        },
+        "sidebar": {
+          "value": "#1a1918",
+          "ref": "color.card"
+        },
+        "sidebar-foreground": {
+          "value": "#f5f4f1",
+          "ref": "color.foreground"
+        },
+        "sidebar-primary": {
+          "value": "#d4b684",
+          "ref": "color.primary"
+        },
+        "sidebar-primary-foreground": {
+          "value": "#0d0e11",
+          "ref": "color.primary-foreground"
+        },
+        "sidebar-accent": {
+          "value": "#1f2128",
+          "ref": "color.primary-soft"
+        },
+        "sidebar-accent-foreground": {
+          "value": "#e6d3b0",
+          "ref": "color.primary-soft-foreground"
+        },
+        "sidebar-border": {
+          "value": "#2c2a27",
+          "ref": "color.border"
+        },
+        "sidebar-ring": {
+          "value": "#d4b684",
+          "ref": "color.ring"
+        }
+      }
+    }
   }
 ] as const;
 
@@ -483,4 +858,4 @@ export const palette = {
   }
 } as const;
 
-export const contrastAudit = [{"brand":"aldra","mode":"light","fg":"foreground","bg":"background","ratio":16.83,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"card-foreground","bg":"card","ratio":17.56,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"popover-foreground","bg":"popover","ratio":17.56,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"secondary-foreground","bg":"secondary","ratio":14.6,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"muted-foreground","bg":"muted","ratio":6.63,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"muted-foreground","bg":"card","ratio":7.29,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"subtle-foreground","bg":"card","ratio":4.9,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"primary-foreground","bg":"primary","ratio":7.43,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"accent-foreground","bg":"accent","ratio":8.68,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"highlight-foreground","bg":"highlight","ratio":5.4,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"sidebar-accent-foreground","bg":"sidebar-accent","ratio":8.68,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"primary","bg":"card","ratio":7.43,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"primary","bg":"background","ratio":7.12,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"ring","bg":"card","ratio":4.96,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"input","bg":"card","ratio":4.9,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"destructive-foreground","bg":"destructive","ratio":5.61,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"destructive","bg":"card","ratio":5.61,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"destructive","bg":"destructive-soft","ratio":4.91,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"success","bg":"success-soft","ratio":4.84,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"warning","bg":"warning-soft","ratio":5.47,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"info","bg":"info-soft","ratio":5.51,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"success","bg":"card","ratio":5.35,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"chart-1","bg":"card","ratio":7.43,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"chart-2","bg":"card","ratio":3.5,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"foreground","bg":"background","ratio":17.15,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"card-foreground","bg":"card","ratio":15.96,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"popover-foreground","bg":"popover","ratio":14.61,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"secondary-foreground","bg":"secondary","ratio":13.01,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"muted-foreground","bg":"muted","ratio":8.86,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"muted-foreground","bg":"card","ratio":9.67,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"subtle-foreground","bg":"card","ratio":5.89,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"primary-foreground","bg":"primary","ratio":6.24,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"accent-foreground","bg":"accent","ratio":9.05,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"highlight-foreground","bg":"highlight","ratio":8.96,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"sidebar-accent-foreground","bg":"sidebar-accent","ratio":9.05,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"primary","bg":"card","ratio":7.02,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"primary","bg":"background","ratio":7.54,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"ring","bg":"card","ratio":8.34,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"input","bg":"card","ratio":3.58,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"destructive-foreground","bg":"destructive","ratio":7.19,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"destructive","bg":"card","ratio":8.34,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"destructive","bg":"destructive-soft","ratio":7.19,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"success","bg":"success-soft","ratio":7.12,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"warning","bg":"warning-soft","ratio":9.06,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"info","bg":"info-soft","ratio":6.99,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"success","bg":"card","ratio":9.79,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"chart-1","bg":"card","ratio":7.02,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"chart-2","bg":"card","ratio":8.34,"min":3,"pass":true}] as const;
+export const contrastAudit = [{"brand":"aldra","mode":"light","fg":"foreground","bg":"background","ratio":16.83,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"card-foreground","bg":"card","ratio":17.56,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"popover-foreground","bg":"popover","ratio":17.56,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"secondary-foreground","bg":"secondary","ratio":14.6,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"muted-foreground","bg":"muted","ratio":6.63,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"muted-foreground","bg":"card","ratio":7.29,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"subtle-foreground","bg":"card","ratio":4.9,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"primary-foreground","bg":"primary","ratio":7.43,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"accent-foreground","bg":"accent","ratio":8.68,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"highlight-foreground","bg":"highlight","ratio":5.4,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"sidebar-accent-foreground","bg":"sidebar-accent","ratio":8.68,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"primary","bg":"card","ratio":7.43,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"primary","bg":"background","ratio":7.12,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"ring","bg":"card","ratio":4.96,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"input","bg":"card","ratio":4.9,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"destructive-foreground","bg":"destructive","ratio":5.61,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"destructive","bg":"card","ratio":5.61,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"destructive","bg":"destructive-soft","ratio":4.91,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"success","bg":"success-soft","ratio":4.84,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"warning","bg":"warning-soft","ratio":5.47,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"info","bg":"info-soft","ratio":5.51,"min":4.5,"pass":true},{"brand":"aldra","mode":"light","fg":"success","bg":"card","ratio":5.35,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"chart-1","bg":"card","ratio":7.43,"min":3,"pass":true},{"brand":"aldra","mode":"light","fg":"chart-2","bg":"card","ratio":3.5,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"foreground","bg":"background","ratio":17.15,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"card-foreground","bg":"card","ratio":15.96,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"popover-foreground","bg":"popover","ratio":14.61,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"secondary-foreground","bg":"secondary","ratio":13.01,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"muted-foreground","bg":"muted","ratio":8.86,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"muted-foreground","bg":"card","ratio":9.67,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"subtle-foreground","bg":"card","ratio":5.89,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"primary-foreground","bg":"primary","ratio":6.24,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"accent-foreground","bg":"accent","ratio":9.05,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"highlight-foreground","bg":"highlight","ratio":8.96,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"sidebar-accent-foreground","bg":"sidebar-accent","ratio":9.05,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"primary","bg":"card","ratio":7.02,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"primary","bg":"background","ratio":7.54,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"ring","bg":"card","ratio":8.34,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"input","bg":"card","ratio":3.58,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"destructive-foreground","bg":"destructive","ratio":7.19,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"destructive","bg":"card","ratio":8.34,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"destructive","bg":"destructive-soft","ratio":7.19,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"success","bg":"success-soft","ratio":7.12,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"warning","bg":"warning-soft","ratio":9.06,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"info","bg":"info-soft","ratio":6.99,"min":4.5,"pass":true},{"brand":"aldra","mode":"dark","fg":"success","bg":"card","ratio":9.79,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"chart-1","bg":"card","ratio":7.02,"min":3,"pass":true},{"brand":"aldra","mode":"dark","fg":"chart-2","bg":"card","ratio":8.34,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"foreground","bg":"background","ratio":16.83,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"card-foreground","bg":"card","ratio":17.56,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"popover-foreground","bg":"popover","ratio":17.56,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"secondary-foreground","bg":"secondary","ratio":14.6,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"muted-foreground","bg":"muted","ratio":6.63,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"muted-foreground","bg":"card","ratio":7.29,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"subtle-foreground","bg":"card","ratio":4.9,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"primary-foreground","bg":"primary","ratio":16.07,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"accent-foreground","bg":"accent","ratio":11.62,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"highlight-foreground","bg":"highlight","ratio":5.92,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"sidebar-accent-foreground","bg":"sidebar-accent","ratio":11.62,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"primary","bg":"card","ratio":16.07,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"primary","bg":"background","ratio":15.41,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"ring","bg":"card","ratio":4.71,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"input","bg":"card","ratio":4.9,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"destructive-foreground","bg":"destructive","ratio":5.61,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"destructive","bg":"card","ratio":5.61,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"destructive","bg":"destructive-soft","ratio":4.91,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"success","bg":"success-soft","ratio":4.84,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"warning","bg":"warning-soft","ratio":5.47,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"info","bg":"info-soft","ratio":5.51,"min":4.5,"pass":true},{"brand":"veyra","mode":"light","fg":"success","bg":"card","ratio":5.35,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"chart-1","bg":"card","ratio":16.07,"min":3,"pass":true},{"brand":"veyra","mode":"light","fg":"chart-2","bg":"card","ratio":3.19,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"foreground","bg":"background","ratio":17.15,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"card-foreground","bg":"card","ratio":15.96,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"popover-foreground","bg":"popover","ratio":14.61,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"secondary-foreground","bg":"secondary","ratio":13.01,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"muted-foreground","bg":"muted","ratio":8.86,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"muted-foreground","bg":"card","ratio":9.67,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"subtle-foreground","bg":"card","ratio":5.89,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"primary-foreground","bg":"primary","ratio":9.95,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"accent-foreground","bg":"accent","ratio":10.95,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"highlight-foreground","bg":"highlight","ratio":9.72,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"sidebar-accent-foreground","bg":"sidebar-accent","ratio":10.95,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"primary","bg":"card","ratio":9.05,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"primary","bg":"background","ratio":9.72,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"ring","bg":"card","ratio":9.05,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"input","bg":"card","ratio":3.58,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"destructive-foreground","bg":"destructive","ratio":7.19,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"destructive","bg":"card","ratio":8.34,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"destructive","bg":"destructive-soft","ratio":7.19,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"success","bg":"success-soft","ratio":7.12,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"warning","bg":"warning-soft","ratio":9.06,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"info","bg":"info-soft","ratio":6.99,"min":4.5,"pass":true},{"brand":"veyra","mode":"dark","fg":"success","bg":"card","ratio":9.79,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"chart-1","bg":"card","ratio":9.05,"min":3,"pass":true},{"brand":"veyra","mode":"dark","fg":"chart-2","bg":"card","ratio":9.05,"min":3,"pass":true}] as const;

@@ -5,19 +5,19 @@ import { Meta } from '@storybook/addon-docs/blocks';
 # AldraHome Design System
 
 The components and tokens behind the **Aldra Home** portal, a *fictional* smart-home brand made for this prototype.
-It is built on **shadcn/ui** and supports light and dark mode.
+It is built on **shadcn/ui** and is **multi-brand**: two fictional brands, **Aldra** (calm Scandinavian flagship) and **Veyra** (premium ink and brass), share every component. Each brand has a light and a dark mode.
 
-Switch mode from the **toolbar above**. Every story and docs page re-renders live.
+Switch brand and mode from the **toolbar above**. Every story and docs page re-renders live.
 
 ## Architecture
 
 ```
 tokens/primitives.json               Tier 1  raw palette        {palette.pine.600}
 tokens/semantic/{light,dark}.json    Tier 2  shadcn roles       {color.primary}, {color.muted-foreground}
-tokens/brands/aldra/*.json           Tier 3  brand overrides    colours, radius scale, fonts
+tokens/brands/<id>/*.json           Tier 3  brand overrides    colours, radius scale, fonts
         │   W3C DTCG format ($value, $type)
         ▼   npm run tokens   (Style Dictionary + WCAG audit)
-src/styles/tokens.css                --background, --primary, --radius… per [data-theme]
+src/styles/tokens.css                --background, --primary, --radius… per [data-brand][data-theme]
 src/tokens/tokens.generated.ts       typed values + contrast audit (build fails below AA)
         │
         ▼

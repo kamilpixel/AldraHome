@@ -8,6 +8,7 @@ export type ModePreference = ColorMode | 'system';
 
 interface ThemeContextValue {
   brand: BrandId;
+  setBrand: (brand: BrandId) => void;
   mode: ColorMode;
   preference: ModePreference;
   setPreference: (pref: ModePreference) => void;
@@ -23,6 +24,9 @@ function systemMode(): ColorMode {
 
 export interface ThemeProviderProps {
   children: ReactNode;
+  /** Controlled brand. Omit to let `setBrand` switch it. */
+  brand?: BrandId;
+  defaultBrand?: BrandId;
   mode?: ModePreference;
   defaultMode?: ModePreference;
   /**
@@ -37,19 +41,22 @@ export interface ThemeProviderProps {
 /**
  * Applies the brand + colour mode by writing `data-brand` / `data-theme`.
  * shadcn/ui components read CSS variables (--primary, --radius…), never React
- * state, so switching mode is a zero-runtime attribute flip.
+ * state, so switching brand or mode is a zero-runtime attribute flip.
  */
 export function ThemeProvider({
   children,
+  brand: brandProp,
+  defaultBrand = brands[0].id,
   mode: modeProp,
   defaultMode = 'system',
   target = 'document',
   className,
 }: ThemeProviderProps) {
+  const [brandState, setBrand] = useState<BrandId>(defaultBrand);
   const [prefState, setPreference] = useState<ModePreference>(defaultMode);
   const [sys, setSys] = useState<ColorMode>(systemMode);
 
-  const brand: BrandId = brands[0].id;
+  const brand = brandProp ?? brandState;
   const preference = modeProp ?? prefState;
   const mode: ColorMode = preference === 'system' ? sys : preference;
 
@@ -71,6 +78,7 @@ export function ThemeProvider({
   const value = useMemo<ThemeContextValue>(
     () => ({
       brand,
+      setBrand,
       mode,
       preference,
       setPreference,

@@ -8,10 +8,11 @@ import { Label } from '@/components/ui/label';
 import { Separator } from '@/components/ui/separator';
 import { Switch } from '@/components/ui/switch';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { useTheme, type ModePreference } from '@/theme/theme-provider';
+import { useTheme, type BrandId, type ModePreference } from '@/theme/theme-provider';
+import { brands } from '@/tokens/tokens.generated';
 
 export function SettingsView() {
-  const { preference, setPreference } = useTheme();
+  const { brand, setBrand, preference, setPreference } = useTheme();
   const [name, setName] = useState('Kamil');
   const error = name.trim().length < 2 ? 'Please enter at least 2 characters.' : undefined;
 
@@ -29,9 +30,25 @@ export function SettingsView() {
             <CardTitle className="font-display text-lg">
               <h2>Appearance</h2>
             </CardTitle>
-            <CardDescription>Dark mode also reduces glare for light-sensitive users.</CardDescription>
+            <CardDescription>Pick a brand theme. Dark mode also reduces glare for light-sensitive users.</CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="flex flex-col gap-4">
+            <ToggleGroup
+              type="single"
+              variant="outline"
+              size="lg"
+              value={brand}
+              onValueChange={(v) => v && setBrand(v as BrandId)}
+              aria-label="Brand"
+              className="w-full"
+            >
+              {brands.map((b) => (
+                <ToggleGroupItem key={b.id} value={b.id} className="flex-1">
+                  <span aria-hidden="true" className="size-3 rounded-full" style={{ background: b.modes.light.primary.value }} />
+                  {b.name}
+                </ToggleGroupItem>
+              ))}
+            </ToggleGroup>
             <ToggleGroup
               type="single"
               variant="outline"

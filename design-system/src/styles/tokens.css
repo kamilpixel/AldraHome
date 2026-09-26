@@ -114,3 +114,115 @@
   --brand-radius-card: 20px;
 }
 
+/* Veyra · light */
+[data-brand="veyra"] {
+  color-scheme: light;
+  --background: #fbfaf8;
+  --foreground: #1a1918;
+  --card: #ffffff;
+  --popover: #ffffff;
+  --primary: #1f2128;
+  --primary-foreground: #ffffff;
+  --primary-soft: #f2f2f4;
+  --primary-soft-foreground: #2e313a;
+  --secondary: #eceae5;
+  --muted: #f5f4f1;
+  --muted-foreground: #5a5650;
+  --subtle-foreground: #75706a;
+  --highlight: #b08a4e;
+  --highlight-foreground: #121110;
+  --destructive: #c22f2f;
+  --destructive-foreground: #ffffff;
+  --destructive-soft: #fdecec;
+  --success: #1e7a45;
+  --success-soft: #e9f7ee;
+  --warning: #8a5a00;
+  --warning-soft: #fff5e0;
+  --info: #1d5fb8;
+  --info-soft: #eaf2fd;
+  --border: #dddad3;
+  --input: #75706a;
+  --ring: #8f6e3a;
+  --chart-3: #9a958b;
+  --chart-4: #1d5fb8;
+  --chart-5: #1e7a45;
+  --card-foreground: #1a1918;
+  --popover-foreground: #1a1918;
+  --secondary-foreground: #1a1918;
+  --accent: #f2f2f4;
+  --accent-foreground: #2e313a;
+  --chart-1: #1f2128;
+  --chart-2: #b08a4e;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1a1918;
+  --sidebar-primary: #1f2128;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f2f2f4;
+  --sidebar-accent-foreground: #2e313a;
+  --sidebar-border: #dddad3;
+  --sidebar-ring: #8f6e3a;
+  --brand-shadow-card: 0px 1px 2px 0px #1211100f, 0px 8px 24px -8px #1211101f;
+  --brand-font-body: Manrope, ui-sans-serif, system-ui, sans-serif;
+  --brand-font-display: Fraunces, ui-serif, Georgia, serif;
+  --brand-radius-item: 2px;
+  --brand-radius-control: 4px;
+  --brand-radius-panel: 6px;
+  --brand-radius-card: 8px;
+}
+
+/* Veyra · dark */
+[data-brand="veyra"][data-theme="dark"] {
+  color-scheme: dark;
+  --background: #121110;
+  --foreground: #f5f4f1;
+  --card: #1a1918;
+  --popover: #222120;
+  --primary: #d4b684;
+  --primary-foreground: #0d0e11;
+  --primary-soft: #1f2128;
+  --primary-soft-foreground: #e6d3b0;
+  --secondary: #2c2a27;
+  --muted: #222120;
+  --muted-foreground: #c4c0b7;
+  --subtle-foreground: #9a958b;
+  --highlight: #d4b684;
+  --highlight-foreground: #121110;
+  --destructive: #f59a9a;
+  --destructive-foreground: #4a1212;
+  --destructive-soft: #4a1212;
+  --success: #7ed3a0;
+  --success-soft: #0e3a21;
+  --warning: #ffc766;
+  --warning-soft: #3d2800;
+  --info: #8db8f2;
+  --info-soft: #0d2a52;
+  --border: #2c2a27;
+  --input: #75706a;
+  --ring: #d4b684;
+  --chart-3: #75706a;
+  --chart-4: #8db8f2;
+  --chart-5: #7ed3a0;
+  --card-foreground: #f5f4f1;
+  --popover-foreground: #f5f4f1;
+  --secondary-foreground: #f5f4f1;
+  --accent: #1f2128;
+  --accent-foreground: #e6d3b0;
+  --chart-1: #d4b684;
+  --chart-2: #d4b684;
+  --sidebar: #1a1918;
+  --sidebar-foreground: #f5f4f1;
+  --sidebar-primary: #d4b684;
+  --sidebar-primary-foreground: #0d0e11;
+  --sidebar-accent: #1f2128;
+  --sidebar-accent-foreground: #e6d3b0;
+  --sidebar-border: #2c2a27;
+  --sidebar-ring: #d4b684;
+  --brand-shadow-card: 0px 1px 2px 0px #00000066, 0px 12px 32px -12px #00000099;
+  --brand-font-body: Manrope, ui-sans-serif, system-ui, sans-serif;
+  --brand-font-display: Fraunces, ui-serif, Georgia, serif;
+  --brand-radius-item: 2px;
+  --brand-radius-control: 4px;
+  --brand-radius-panel: 6px;
+  --brand-radius-card: 8px;
+}
+

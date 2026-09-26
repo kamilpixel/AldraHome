@@ -2,7 +2,7 @@
 
 A smart-home portal for controlling connected appliances, built with React and shadcn/ui.
 
-> Aldra Home is a **fictional brand** made for this project.
+> Aldra Home is a **fictional brand** made for this project. The design system is multi-brand and ships a second fictional brand, **Veyra**, to show it.
 
 🔗 **Portal:** [aldrahome.kamilpixel.com](https://aldrahome.kamilpixel.com/) · **Storybook:** [aldrahome-storybook.kamilpixel.com](https://aldrahome-storybook.kamilpixel.com)
 
@@ -14,7 +14,7 @@ Aldra Home is a web app where you check on and control the appliances in your ho
 - Control the oven: set the temperature with a dial, choose a cooking mode and run a timer
 - Control the washer: pick a wash program, set the spin speed and track progress
 - Add an appliance, read notifications and get toast feedback
-- Switch between light and dark mode
+- Switch between two brand themes (Aldra and Veyra) and between light and dark mode
 
 It works on desktop and mobile. The UI components are documented in Storybook.
 
